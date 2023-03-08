@@ -1,9 +1,21 @@
 import Head from "next/head";
 import Banner from "../../components/banner/banner";
 import NavBar from "../../components/nav/navbar";
-import Card from "../../components/card/card";
+import SectionCards from "../../components/card/section-cards";
+import styles from "/src/styles/Home.module.css";
 
 export default function Home() {
+  const actionVideos = [
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+    { imgUrl: "/static/pulp_fiction.webp" },
+  ];
+
   return (
     <>
       <Head>
@@ -18,9 +30,10 @@ export default function Home() {
         subTitle="A series of incidents intertwine the lives of two LA mobsters, a gangster's wife, a boxer and two small-time criminals."
         imgUrl="/static/pulp_fiction.webp"
       />
-      <Card imgUrl="/static/pulp_fiction.webp" size="large" />
-      <Card size="medium" />
-      <Card imgUrl="/static/pulp_fiction.webp" size="small" />
+      <div className={styles.sectionWrapper}>
+        <SectionCards title="guess" videos={actionVideos} size="large" />
+        <SectionCards title="two" videos={actionVideos} size="medium" />
+      </div>
     </>
   );
 }
