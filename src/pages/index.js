@@ -3,19 +3,14 @@ import Banner from "../../components/banner/banner";
 import NavBar from "../../components/nav/navbar";
 import SectionCards from "../../components/card/section-cards";
 import styles from "/src/styles/Home.module.css";
+import { getVideos } from "../../lib/videos";
 
-export default function Home() {
-  const actionVideos = [
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-    { imgUrl: "/static/pulp_fiction.webp" },
-  ];
+export async function getServerSideProps() {
+  const actionVideos = getVideos();
+  return { props: { actionVideos } };
+}
 
+export default function Home({ actionVideos }) {
   return (
     <>
       <Head>
