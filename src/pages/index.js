@@ -9,6 +9,7 @@ import {
   getHorrorVideos,
   getSfVideos,
 } from "../../lib/videos";
+import magic from "../../lib/magic-client";
 
 export async function getServerSideProps(context) {
   const actionVideos = getActionVideos();
@@ -31,6 +32,7 @@ export default function Home({
   comedyVideos,
   sfVideos,
 }) {
+  console.log("magic link", magic);
   return (
     <>
       <Head>

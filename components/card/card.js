@@ -33,11 +33,11 @@ const Card = (props) => {
         whileHover={{ ...scale }}
       >
         <Image
+          className={styles.cardImg}
           src={imgSrc}
           alt="thumbnail"
           fill="true"
           onError={handleOnError}
-          className={styles.cardImg}
         />
       </motion.div>
     </div> //styles.container
