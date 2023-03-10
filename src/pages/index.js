@@ -3,14 +3,34 @@ import Banner from "../../components/banner/banner";
 import NavBar from "../../components/nav/navbar";
 import SectionCards from "../../components/card/section-cards";
 import styles from "/src/styles/Home.module.css";
-import { getVideos } from "../../lib/videos";
+import {
+  getActionVideos,
+  getComedyVideos,
+  getHorrorVideos,
+  getSfVideos,
+} from "../../lib/videos";
 
-export async function getServerSideProps() {
-  const actionVideos = getVideos();
-  return { props: { actionVideos } };
+export async function getServerSideProps(context) {
+  const actionVideos = getActionVideos();
+  const horrorVideos = getHorrorVideos();
+  const comedyVideos = getComedyVideos();
+  const sfVideos = getSfVideos();
+  return {
+    props: {
+      actionVideos,
+      horrorVideos,
+      comedyVideos,
+      sfVideos,
+    },
+  };
 }
 
-export default function Home({ actionVideos }) {
+export default function Home({
+  actionVideos,
+  horrorVideos,
+  comedyVideos,
+  sfVideos,
+}) {
   return (
     <>
       <Head>
@@ -26,8 +46,10 @@ export default function Home({ actionVideos }) {
         imgUrl="/static/pulp_fiction.webp"
       />
       <div className={styles.sectionWrapper}>
-        <SectionCards title="guess" videos={actionVideos} size="large" />
-        <SectionCards title="two" videos={actionVideos} size="medium" />
+        <SectionCards title="Action" videos={actionVideos} size="large" />
+        <SectionCards title="Horror" videos={horrorVideos} size="small" />
+        <SectionCards title="Comedy" videos={comedyVideos} size="medium" />
+        <SectionCards title="Science Fiction" videos={sfVideos} size="small" />
       </div>
     </>
   );

@@ -20,7 +20,7 @@ const Card = (props) => {
   };
 
   const handleOnError = () => {
-    console.log("poster error");
+    console.log("thumbnail error");
     setImgSrc("https://images.unsplash.com/photo-1598899134739-24c46f58b8c0");
   };
 
@@ -34,7 +34,7 @@ const Card = (props) => {
       >
         <Image
           src={imgSrc}
-          alt="poster"
+          alt="thumbnail"
           fill="true"
           onError={handleOnError}
           className={styles.cardImg}

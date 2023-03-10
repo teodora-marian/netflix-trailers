@@ -1,0 +1,855 @@
+{
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "v-9XOr-Iu0ZYM-TytLt_U0vLg7w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "qzKDrUpkDoU"
+        },
+        "snippet": {
+          "publishedAt": "2023-02-03T14:05:58Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies 2023 (Trailers)",
+          "description": "Top New & Upcoming Science-Fiction Movies 2022 & 2023 | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/qzKDrUpkDoU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qzKDrUpkDoU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qzKDrUpkDoU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-02-03T14:05:58Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Lg61CthMDRNJghXKKEsp26wAZBE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "_Y1tNkzLEUM"
+        },
+        "snippet": {
+          "publishedAt": "2020-09-11T13:03:34Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best SCIENCE-FICTION Movies 2020 &amp; 2021 (Trailers)",
+          "description": "Top Science-Fiction Movies 2020 & 2021 Full Trailer Compilation | Subscribe ➤ http://abo.yt/ki | More https://KinoCheck.com ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_Y1tNkzLEUM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_Y1tNkzLEUM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_Y1tNkzLEUM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-09-11T13:03:34Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "6niU59cN4hq3XjFQ6PFQBGZ1g3g",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "HncXcsw5lZI"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-11T20:43:30Z",
+          "channelId": "UCwBV-eg1dAkzrdjqJfyEj0w",
+          "title": "NEW MOVIE TRAILERS 2023 (Sci-Fi)",
+          "description": "Have a look through the timestamps to find something of interest: 0:05 - ANT-MAN AND THE WASP QUANTUMANIA (2023) Final ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/HncXcsw5lZI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HncXcsw5lZI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HncXcsw5lZI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "MovieGasm.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-11T20:43:30Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "mae8LwxMIdKTdiJRVJavtOGyc4c",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "08R-QoLzWf0"
+        },
+        "snippet": {
+          "publishedAt": "2022-08-25T13:03:34Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies 2022 (Trailers)",
+          "description": "Top New & Upcoming Science-Fiction Movies 2022 Trailer Compilation | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/08R-QoLzWf0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/08R-QoLzWf0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/08R-QoLzWf0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-08-25T13:03:34Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "2Q0Rp_3NILQpKr3yRKMyT9vcQuk",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ozOtu4ZK_cY"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-12T14:04:55Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies 2022 &amp; 2023 (Trailers)",
+          "description": "Top New & Upcoming Science-Fiction Movies 2022 & 2023 | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ozOtu4ZK_cY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ozOtu4ZK_cY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ozOtu4ZK_cY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-12T14:04:55Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "RzjXjZKOKcvfTTOxggd-1XphJo0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "u-bssJzmX6E"
+        },
+        "snippet": {
+          "publishedAt": "2021-02-28T17:04:02Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies (Trailers)",
+          "description": "Top NEW Science-Fiction Movies 2021 Full Trailer Compilation | Subscribe ➤ http://abo.yt/ki | More https://KinoCheck.com ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/u-bssJzmX6E/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/u-bssJzmX6E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/u-bssJzmX6E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-02-28T17:04:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "zlPL7hAHDrq_ceZ9cBWRIIiWiq8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "0VwoYslTFv4"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-17T09:55:02Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies 2022 (Trailers)",
+          "description": "Top New & Upcoming Science-Fiction Movies 2022 Trailer Compilation | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/0VwoYslTFv4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0VwoYslTFv4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0VwoYslTFv4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-17T09:55:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "b4zD5uVYe_Ew-kRzJMwpKTcfvEg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Z9-xnelobwo"
+        },
+        "snippet": {
+          "publishedAt": "2017-09-06T17:00:03Z",
+          "channelId": "UCDHv5A6lFccm37oTZ5Mp7NA",
+          "title": "REALIVE Trailer (2017) Science-Fiction Movie",
+          "description": "Realive Trailer - 2017 Science-Fiction Movie Subscribe for more: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Z9-xnelobwo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Z9-xnelobwo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Z9-xnelobwo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "New Trailer Buzz",
+          "liveBroadcastContent": "none",
+          "publishTime": "2017-09-06T17:00:03Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Qr8Y3Qrjtu1_EjR97xGP1NNYsGc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "ngO6Mnmzc8A"
+        },
+        "snippet": {
+          "publishedAt": "2022-06-03T15:14:06Z",
+          "channelId": "UCfAInEvJMxEq_pCb9vehdCw",
+          "title": "Orbital | Official Trailer 2",
+          "description": "Watch the new trailer of my upcoming Sci-Fi movie Orbital. Stay tuned for more updates. Instagram: ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/ngO6Mnmzc8A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ngO6Mnmzc8A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ngO6Mnmzc8A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Hashem Al-Ghaili",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-06-03T15:14:06Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "9le46r8oMTsELj7-BpYjPNZHWqQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "okNzOq0R8yE"
+        },
+        "snippet": {
+          "publishedAt": "2019-11-04T23:40:08Z",
+          "channelId": "UCJe_J_VCkuPehRlD-QR6iPQ",
+          "title": "INVASION PLANET EARTH Official Trailer (2019) SciFi",
+          "description": "Munro Films and Lightbulb Film Distribution are delighted to share the Trailer and Poster for their latest Sci-Fi thriller, Invasion ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/okNzOq0R8yE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/okNzOq0R8yE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/okNzOq0R8yE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "BritFlicks",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-11-04T23:40:08Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "_sFvUjAA-Gzz89ILpqPiPdzdpYE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "g9tZ0CgvgAk"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-15T15:33:04Z",
+          "channelId": "UCFoIzbYrag0mZUrlXf6jhOQ",
+          "title": "NEW Science-Fiction Movies 2022 &amp; 2023 (Trailer Compilation)",
+          "description": "Watch our trailer compilation for the best new & upcoming Science-Fiction movies 2022 & 2023! 00:00 Guardians of the Galaxy ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/g9tZ0CgvgAk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/g9tZ0CgvgAk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/g9tZ0CgvgAk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Science-Fiction Society",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-15T15:33:04Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "L0TqVB9gob0hgV4ARwNKz-JilEo",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "sMKnSC6Pezs"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-13T20:55:49Z",
+          "channelId": "UCwBV-eg1dAkzrdjqJfyEj0w",
+          "title": "NEW MOVIE TRAILERS 2023 (Sci-Fi)",
+          "description": "0:05 Secret Invasion 1:54 Guardians Of The Gal Vol. 3 3:43 Knights Of The Zodiac 4:46 The Mandolorean: Season 3 6:30 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sMKnSC6Pezs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sMKnSC6Pezs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sMKnSC6Pezs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "MovieGasm.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-13T20:55:49Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "dXA_qxXXw1ROCRUYSo3CtOl02DM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "nr8GUtjITMg"
+        },
+        "snippet": {
+          "publishedAt": "2022-08-26T11:00:10Z",
+          "channelId": "UCT0hbLDa-unWsnZ6Rjzkfug",
+          "title": "NEW UPCOMING SCI-FI MOVIES 2022 (Trailers)",
+          "description": "NEW UPCOMING SCI-FI MOVIES 2022 (Trailers) Films Included: 00:00 FilmSelect 00:05 Avatar 2 The Way Of Water 01:41 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nr8GUtjITMg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nr8GUtjITMg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nr8GUtjITMg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "FilmSelect Trailer",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-08-26T11:00:10Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "yWBameGLRRBiZuW86srEaOr0hxA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "2Ib8yeFQ6gw"
+        },
+        "snippet": {
+          "publishedAt": "2023-03-06T16:52:07Z",
+          "channelId": "UCwBV-eg1dAkzrdjqJfyEj0w",
+          "title": "SILO Trailer (2023) Apple TV Sci-Fi Series 4K",
+          "description": "In a ruined and toxic future, a community exists in a giant underground silo that plunges hundreds of stories deep. There, men and ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/2Ib8yeFQ6gw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/2Ib8yeFQ6gw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/2Ib8yeFQ6gw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "MovieGasm.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-03-06T16:52:07Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Hl9U7XY2Ist7D3gkBGuIh3nDx8o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "bHXejJq5vr0"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-14T14:00:14Z",
+          "channelId": "UCz97F7dMxBNOfGYu3rx8aCw",
+          "title": "65 – Official Trailer (HD)",
+          "description": "From the writers of A Quiet Place and producer Sam Raimi, #65movie is coming exclusively to movie theaters this March. Visit our ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/bHXejJq5vr0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bHXejJq5vr0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bHXejJq5vr0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Sony Pictures Entertainment",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-14T14:00:14Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "nrK_rrBdQs4jGSfIKJI1xL_y5yw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "EEqgxZKygsw"
+        },
+        "snippet": {
+          "publishedAt": "2021-08-13T16:03:40Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies (Trailers)",
+          "description": "Top New & Upcoming Science-Fiction Movies Trailer Compilation | Subscribe ➤ https://abo.yt/ki | More https://KinoCheck.com ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EEqgxZKygsw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EEqgxZKygsw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EEqgxZKygsw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-08-13T16:03:40Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Dh8-SjkEyBv-LCFojN1dH0Qi_ec",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "qq3F-D_dBPc"
+        },
+        "snippet": {
+          "publishedAt": "2022-12-15T15:31:04Z",
+          "channelId": "UCPeWW70fBQm9ha2TlFiItqQ",
+          "title": "NEW Science-Fiction Movies 2022 &amp; 2023 (Trailers)",
+          "description": "Top New & Upcoming Sci-Fi Movies 2022 & 2023 Trailer Compilation | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/qq3F-D_dBPc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qq3F-D_dBPc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qq3F-D_dBPc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck Sci-Fi",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-12-15T15:31:04Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "co_5yjK5XYvSoq-wb7kv8WMXOUM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Vc1vkeUvapc"
+        },
+        "snippet": {
+          "publishedAt": "2022-11-03T13:06:38Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best NEW Science-Fiction Movies 2022 &amp; 2023 (Trailers)",
+          "description": "Top New & Upcoming Science-Fiction Movies 2022 Trailer Compilation | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Vc1vkeUvapc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Vc1vkeUvapc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Vc1vkeUvapc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-11-03T13:06:38Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "rFOrd4JQ_kGxT2WgOs4DfW_9NDM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Dbnd2XJFeeg"
+        },
+        "snippet": {
+          "publishedAt": "2022-08-25T19:29:02Z",
+          "channelId": "UC1cVTv6C0Unv6TtadjBvYRA",
+          "title": "DEUS Official Trailer (2022) Sci-Fi Movie HD",
+          "description": "DEUS Official Trailer (2022) Sci-Fi Movie HD A mysterious black sphere is discovered in the orbit of Mars. The Achilles is sent to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Dbnd2XJFeeg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Dbnd2XJFeeg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Dbnd2XJFeeg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Rapid Trailer",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-08-25T19:29:02Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "NRbn7S2NVMRutzTYQozuG-B98ZA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "uvXROBf3yYw"
+        },
+        "snippet": {
+          "publishedAt": "2020-09-02T17:02:27Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best SCIENCE-FICTION Movies (Trailers)",
+          "description": "The Best Science-Fiction Movies From The Past 10 Years Full Trailer Compilation | Subscribe ➤ http://abo.yt/ki | More ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uvXROBf3yYw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uvXROBf3yYw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uvXROBf3yYw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-09-02T17:02:27Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "lPEWz68OqVF4AlYAZt9sO17RTpA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "D09aGdEDK2U"
+        },
+        "snippet": {
+          "publishedAt": "2021-12-03T06:47:45Z",
+          "channelId": "UCHqPcnAw6JmcPvJFjJwiM-Q",
+          "title": "TERMINATOR 7: End Of War (2022) Official Trailer Teaser - Arnold Schwarzenegger",
+          "description": "Arnold Schwarzenegger Terminator 7 Name End of war Official Trailer and Teaser coming in 2022. Terminator: 7. An augmented ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/D09aGdEDK2U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/D09aGdEDK2U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/D09aGdEDK2U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "PLUMBER",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-12-03T06:47:45Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "EZVgidK09vydeQ16KmiVZsZFRJc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "gMeVvYmGTgo"
+        },
+        "snippet": {
+          "publishedAt": "2018-01-13T14:30:01Z",
+          "channelId": "UCDHv5A6lFccm37oTZ5Mp7NA",
+          "title": "Best Science Fiction Movie Trailers 2018",
+          "description": "Top Upcoming Science-Fiction Movies 2018 Trailer Compilation Get a glimpse at some of the most interesting Sci-Fi movies ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/gMeVvYmGTgo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gMeVvYmGTgo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gMeVvYmGTgo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "New Trailer Buzz",
+          "liveBroadcastContent": "none",
+          "publishTime": "2018-01-13T14:30:01Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Be7ZANAeHmubyyLmFQ0xgskHPdg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "yF2k1DH4gMk"
+        },
+        "snippet": {
+          "publishedAt": "2023-03-09T14:30:13Z",
+          "channelId": "UCWOSgEKGpS5C026lY4Y4KGw",
+          "title": "SIMULANT Trailer (NEW 2023)",
+          "description": "official new movie trailer for Simulant Plot : A humanoid A.I.'s attempt to win over a widow's heart places it in the path of a ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/yF2k1DH4gMk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/yF2k1DH4gMk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/yF2k1DH4gMk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "FilmSpot Trailer",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-03-09T14:30:13Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "26ssg0cuPQDwdFXav35MEEkP_x0",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "8BO0ikcvwFE"
+        },
+        "snippet": {
+          "publishedAt": "2020-04-14T11:47:03Z",
+          "channelId": "UCOL10n-as9dXO2qtjjFUQbQ",
+          "title": "Die besten SCIENCE FICTION Filme der letzten 10 Jahre (Trailer German Deutsch)",
+          "description": "Eine Zusammenstellung der besten SCIENCE FICTION Filme der letzten 10 Jahre auf Deutsch German | Abonnieren ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8BO0ikcvwFE/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8BO0ikcvwFE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8BO0ikcvwFE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck",
+          "liveBroadcastContent": "none",
+          "publishTime": "2020-04-14T11:47:03Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "nC3a-NnuUJvqAgH2PvnXiCNweWc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "zzFnpEvL8XA"
+        },
+        "snippet": {
+          "publishedAt": "2023-02-22T17:05:48Z",
+          "channelId": "UCLRlryMfL8ffxzrtqv0_k_w",
+          "title": "The Best SPACE Movies (Trailers)",
+          "description": "Top Space Movies Trailer Compilation | Subscribe ➤ https://abo.yt/ki | Movie Trailer | More https://KinoCheck.com Included in this ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/zzFnpEvL8XA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/zzFnpEvL8XA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/zzFnpEvL8XA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "KinoCheck.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-02-22T17:05:48Z"
+        }
+      }
+    ]
+  }
+  
