@@ -19,13 +19,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This is a web application for viewing trailers, displaying a structure similar to Netflix.
 
 Contents:
-The landing page has a `<navbar>` divided into two sections: to the left, there is a logo and two links: to the "Home" page, respectively to a favourites page called "My Likes". To the right, the navbar displays the email address of the logged in user, with a dropdown button to log out. User registration is done with `Magic Link`.
+The landing page has a `<navbar>` divided into two sections: to the left, there is a logo and two links: to the "Home" page, respectively to a favourites page called "My Likes". To the right, the navbar displays the email address of the logged in user, with a dropdown button to log out. User registration is done via `Magic Link`.
 
 The next component is a `<banner>`, which contains a large image for a trailer in the background, with the title, subtitle (description) and a play button displayed over the image.
 
-Lastly, the app has four `<card>` sections displayed as horizontal scrollable lists. Each card displays a thumbnail for a trailer, that scales on hover. Once the user clicks on a thumnail image, a new page modal opens, where the actual trailer can be played.
+Lastly, the app has four `<card>` sections displayed as horizontal scrollable lists. For populating the scrollable lists, I implemented the YouTube API method `Search: list (by keyword)` with `<getServerSideProps>`. Each card in the sections displays a thumbnail for a trailer, that scales on hover.
 
-Initially, for populating the scrollable lists, I implemented the YouTube API method for `Search: list (by keyword)` with `<getServerSideProps>` for retrieving trailers (video, title, thumbnail, id) but I quickly reached my call limit due to data re-rendering on every request. Therefore, I moved all the data from the API in four separate `.json` files (one for each section displayed on the page) and created functions to retrieve and render that data in its respective section.
-
-The `<Modal>` has two main parts: an `<iframe>` with a video player and, underneath, a section with descriptive information (title, published date, plot, channel name & viewcount).
+Once the user clicks on a thumnail image, a new page `<Modal>` opens, where the actual trailer can be played. The data is fetched via YouTube API again and rendered inside an `<iframe>` with a video player. Under the player, there is a section with descriptive information (title, published date, description, channel name & viewcount) also fetched from the API.
 
