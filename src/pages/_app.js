@@ -6,7 +6,7 @@ import "@/styles/globals.css";
 
 function App({ Component, pageProps }) {
   const router = useRouter();
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // useEffect(() => {
   //   const handleLoggedIn = async () => {
@@ -20,20 +20,20 @@ function App({ Component, pageProps }) {
   //   handleLoggedIn();
   // }, []);
 
-  // useEffect(() => {
-  //   const handleComplete = () => {
-  //     setIsLoading(false);
-  //   };
-  //   router.events.on("routeChangeComplete", handleComplete);
-  //   router.events.on("routeChangeError", handleComplete);
-  //   return () => {
-  //     router.events.off("routeChangeComplete", handleComplete);
-  //     router.events.off("routeChangeError", handleComplete);
-  //   };
-  // }, [router]);
+  useEffect(() => {
+    const handleComplete = () => {
+      setIsLoading(false);
+    };
+    router.events.on("routeChangeComplete", handleComplete);
+    router.events.on("routeChangeError", handleComplete);
+    return () => {
+      router.events.off("routeChangeComplete", handleComplete);
+      router.events.off("routeChangeError", handleComplete);
+    };
+  }, [router]);
 
-  // return isLoading ? <Loading /> : <Component {...pageProps} />;
-  return <Component {...pageProps} />;
+  return isLoading ? <Loading /> : <Component {...pageProps} />;
+  // return <Component {...pageProps} />;
 }
 
 export default App;
