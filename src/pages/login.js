@@ -27,30 +27,38 @@ const Login = () => {
 
   const handleOnChangeEmail = (e) => {
     setUserMsg("");
-    console.log("event", e);
     const email = e.target.value;
     setEmail(email);
   };
 
   const handleLogin = async (e) => {
-    console.log("hi button");
+    console.log("login button");
     e.preventDefault();
 
     if (email) {
-      if (email === "teodora.marian@yahoo.com") {
-        try {
-          setIsLoading(true);
-          const didToken = await magic.auth.loginWithMagicLink({ email });
-          console.log("didToken", didToken);
-          if (didToken) {
+      try {
+        setIsLoading(true);
+        const didToken = await magic.auth.loginWithMagicLink({ email });
+        console.log("didToken", didToken);
+        if (didToken) {
+          const response = await fetch("/api/login", {
+            method: "POST",
+            headers: {
+              Authorization: `Bearer ${didToken}`,
+              "Content-Type": `application/json`,
+            },
+          });
+          const loggedInResponse = await response.json();
+          console.log({ loggedInResponse });
+          if (loggedInResponse.done) {
             router.push("/");
+          } else {
+            setIsLoading(false);
+            setUserMsg("Something went wrong with authorizing access.");
           }
-        } catch (err) {
-          console.error("something went wrong logging you in", err);
-          setIsLoading(false);
         }
-      } else {
-        setUserMsg("Email not recognised.");
+      } catch (err) {
+        console.error("Something went wrong logging you in", err);
         setIsLoading(false);
       }
     } else {

@@ -4,7 +4,6 @@ import NavBar from "../../components/nav/navbar";
 import SectionCards from "../../components/card/section-cards";
 
 import styles from "/src/styles/Home.module.css";
-
 import { getGenreVideos } from "../../lib/videos";
 
 export async function getServerSideProps(context) {
