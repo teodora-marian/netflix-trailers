@@ -35,6 +35,8 @@ const Video = ({ video }) => {
   const router = useRouter();
   console.log({ router });
 
+  const videoId = router.query.videoId;
+
   const [toggleLike, setToggleLike] = useState(false);
   const [toggleDislike, setToggleDislike] = useState(false);
 
@@ -48,14 +50,30 @@ const Video = ({ video }) => {
 
   const handleToggleLike = async () => {
     console.log("handleToggleLike");
-    setToggleLike(!toggleLike);
+    const likeValue = !toggleLike;
+    setToggleLike(likeValue);
     setToggleDislike(toggleLike);
+
+    const response = await fetch("/api/stats", {
+      method: "POST",
+      body: JSON.stringify({ videoId, liked: likeValue ? 1 : 0 }),
+      headers: { "Content-Type": "application/json" },
+    });
+    console.log("like action", await response.json());
   };
 
   const handleToggleDislike = async () => {
     console.log("handleToggleDislike");
-    setToggleDislike(!toggleDislike);
+    const dislikeValue = !toggleDislike;
+    setToggleDislike(dislikeValue);
     setToggleLike(toggleDislike);
+
+    const response = await fetch("/api/stats", {
+      method: "POST",
+      body: JSON.stringify({ videoId, liked: dislikeValue ? 0 : 1 }),
+      headers: { "Content-Type": "application/json" },
+    });
+    console.log("dislike action", await response.json());
   };
 
   return (
@@ -74,7 +92,7 @@ const Video = ({ video }) => {
           type="text/html"
           width="100%"
           height="360"
-          src={`https://www.youtube.com/embed/${router.query.videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
         ></iframe>
 
         <div className={styles.likeDislikeBtnWrapper}>
