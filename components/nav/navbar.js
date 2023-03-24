@@ -12,9 +12,11 @@ const NavBar = () => {
   useEffect(() => {
     async function getUsername() {
       try {
-        const { email } = await magic.user.getMetadata();
+        const isLoggedIn = await magic.user.isLoggedIn();
+        console.log("THE USER IS LOGGED IN: ", isLoggedIn);
         const didToken = await magic.user.getIdToken();
         console.log({ didToken });
+        const { email } = await magic.user.getMetadata();
         if (email) {
           setUsername(email);
         }

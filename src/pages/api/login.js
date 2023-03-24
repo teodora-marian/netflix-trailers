@@ -1,17 +1,17 @@
 import { magicAdmin } from "../../../lib/magic";
 import jwt from "jsonwebtoken";
-import { isNewUser, createNewUser } from "../../../lib/usersDB/hasura";
+import { isExistingUser, createNewUser } from "../../../lib/usersDB/hasura";
 import { setTokenCookie } from "../../../lib/cookies";
 
 export default async function login(req, res) {
   if (req.method === "POST")
     try {
       const auth = req.headers.authorization;
-      const token = auth ? auth.substr(7) : "";
-      console.log({ token });
+      const didToken = auth ? auth.substr(7) : "";
+      console.log({ didToken });
 
       //invoke magic
-      const metadata = await magicAdmin.users.getMetadataByToken(token);
+      const metadata = await magicAdmin.users.getMetadataByToken(didToken);
       console.log({ metadata });
 
       //create jwt
@@ -30,9 +30,12 @@ export default async function login(req, res) {
       );
       console.log({ jwtToken });
 
-      const isNewUserQuery = await isNewUser(token, metadata.issuer);
-      isNewUserQuery && (await createNewUser(token, metadata));
-      setTokenCookie(token, res);
+      const isExistingUserQuery = await isExistingUser(
+        jwtToken,
+        metadata.issuer
+      );
+      !isExistingUserQuery && (await createNewUser(jwtToken, metadata));
+      setTokenCookie(jwtToken, res);
       res.send({ done: true });
     } catch (error) {
       console.log("Something went wrong logging in", error);
