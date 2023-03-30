@@ -53,7 +53,12 @@ const NavBar = () => {
           "Content-Type": "application/json",
         },
       });
-      const res = await response.json();
+      if (response.status === 200) {
+        console.log("User logged out successfully!");
+        router.push("/login");
+      } else {
+        console.log("Error logging user out:", response.status, response);
+      }
     } catch (error) {
       console.error("Error logging out", error);
       router.push("/login");
