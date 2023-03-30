@@ -3,10 +3,10 @@ import NavBar from "../../../components/nav/navbar";
 import SectionCards from "../../../components/card/section-cards";
 import styles from "../../styles/MyLikes.module.css";
 import { myLikedVideos } from "../../../lib/videos";
-import useRedirectUser from "../../../utils/redirect-user";
+import redirectUser from "../../../utils/redirect-user";
 
 export async function getServerSideProps(context) {
-  const { userId, jwtToken } = await useRedirectUser(context);
+  const { userId, jwtToken } = await redirectUser(context);
 
   if (!userId) {
     return {

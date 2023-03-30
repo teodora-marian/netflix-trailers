@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { magic } from "../../lib/magic-client";
+import Link from "next/link";
 
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -68,7 +69,7 @@ const NavBar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <a className={styles.logoLink} href="/">
+        <Link className={styles.logoLink} href="/">
           <div className={styles.logoWrapper}>
             <Image
               src={"/static/netflix.svg"}
@@ -77,7 +78,7 @@ const NavBar = () => {
               height="34"
             />
           </div>
-        </a>
+        </Link>
         <ul className={styles.navItems}>
           <li className={styles.navItem1} onClick={handleOnClickHome}>
             Home

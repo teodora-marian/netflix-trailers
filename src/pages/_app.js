@@ -18,7 +18,7 @@ function App({ Component, pageProps }) {
       }
     };
     handleLoggedIn();
-  }, []);
+  });
 
   useEffect(() => {
     const handleComplete = () => {

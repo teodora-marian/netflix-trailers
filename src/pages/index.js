@@ -5,10 +5,10 @@ import SectionCards from "../../components/card/section-cards";
 
 import styles from "/src/styles/Home.module.css";
 import { getGenreVideos, getWatchItAgainVideos } from "../../lib/videos";
-import useRedirectUser from "../../utils/redirect-user";
+import redirectUser from "../../utils/redirect-user";
 
 export async function getServerSideProps(context) {
-  const { userId, jwtToken } = await useRedirectUser(context);
+  const { userId, jwtToken } = await redirectUser(context);
 
   const watchedVideos = await getWatchItAgainVideos(userId, jwtToken);
   const actionVideos = await getGenreVideos("action movie trailer");
