@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from "react-modal";
 import styles from "../../styles/Video.module.css";
 import clsx from "classnames";
@@ -47,6 +47,26 @@ const Video = ({ video }) => {
     channelTitle,
     statistics: { viewCount } = { viewCount: 0 },
   } = video;
+
+  useEffect(() => {
+    const fetchVideoStats = async () => {
+      const response = await fetch(`/api/stats?videoId=${videoId}`, {
+        method: "GET",
+      });
+      const videoStatsData = await response.json();
+      console.log({ videoStatsData });
+
+      if (videoStatsData.length > 0) {
+        const likedStatus = videoStatsData[0].liked;
+        if (likedStatus === 1) {
+          setToggleLike(true);
+        } else if (likedStatus === 0) {
+          setToggleLike(null);
+        }
+      }
+    };
+    fetchVideoStats();
+  }, [videoId]);
 
   const handleToggleLike = async () => {
     console.log("handleToggleLike");

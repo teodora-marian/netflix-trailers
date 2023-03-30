@@ -7,6 +7,7 @@ import { magic } from "../../lib/magic-client";
 const NavBar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [username, setUsername] = useState("");
+  const [didToken, setDidToken] = useState("");
   const router = useRouter();
 
   useEffect(() => {
@@ -45,11 +46,16 @@ const NavBar = () => {
   const handleSignout = async (e) => {
     e.preventDefault();
     try {
-      await magic.user.logout();
-      console.log(await magic.user.isLoggedIn()); // => `false`
-      router.push("/login");
-    } catch (err) {
-      console.error("Error logging you out.", err);
+      const response = await fetch("/api/logout", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${didToken}`,
+          "Content-Type": "application/json",
+        },
+      });
+      const res = await response.json();
+    } catch (error) {
+      console.error("Error logging out", error);
       router.push("/login");
     }
   };
@@ -85,7 +91,7 @@ const NavBar = () => {
               <p className={styles.username}>{username}</p>
               <Image
                 src={"/static/expand_more.svg"}
-                alt="expand more"
+                alt="expand dropdown"
                 width="24"
                 height="24"
               />
