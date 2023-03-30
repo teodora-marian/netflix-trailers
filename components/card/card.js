@@ -20,7 +20,6 @@ const Card = (props) => {
   };
 
   const handleOnError = () => {
-    console.log("thumbnail error");
     setImgSrc("https://images.unsplash.com/photo-1598899134739-24c46f58b8c0");
   };
 

@@ -12,7 +12,6 @@ export default async function login(req, res) {
 
       //invoke magic
       const metadata = await magicAdmin.users.getMetadataByToken(didToken);
-      console.log({ metadata });
 
       //create jwt
       const jwtToken = jwt.sign(
@@ -28,7 +27,6 @@ export default async function login(req, res) {
         },
         process.env.JWT_SECRET
       );
-      console.log({ jwtToken });
 
       const isExistingUserQuery = await isExistingUser(
         jwtToken,

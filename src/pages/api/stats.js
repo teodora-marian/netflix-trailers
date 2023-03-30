@@ -7,7 +7,6 @@ import {
 
 export default async function stats(req, resp) {
   try {
-    console.log(req.method);
     const jwtToken = req.cookies.token;
     if (!jwtToken) {
       resp.status(403).send({});
@@ -31,7 +30,6 @@ export default async function stats(req, resp) {
             console.log("updateStats (f) response", updateResponse);
             resp.send({ msg: "?stats have been updated?", updateResponse });
           } else {
-            console.log({ watched, userId, videoId, liked });
             const insertResponse = await insertStats(jwtToken, {
               userId,
               videoId,

@@ -59,7 +59,6 @@ export default function Home({
           />
           <SectionCards title="Horror" videos={horrorVideos} size="medium" />
           <SectionCards title="SF" videos={sfVideos} size="large" />
-
           <SectionCards title="Comedy" videos={comedyVideos} size="small" />
         </div>
       </div>

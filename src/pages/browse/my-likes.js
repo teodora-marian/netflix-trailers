@@ -19,7 +19,6 @@ export async function getServerSideProps(context) {
   }
 
   const myVideos = await myLikedVideos(userId, jwtToken);
-  console.log("MYYYYY videos", myVideos);
   return {
     props: {
       likedVideos: myVideos,

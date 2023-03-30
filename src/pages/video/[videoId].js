@@ -69,7 +69,6 @@ const Video = ({ video }) => {
   }, [videoId]);
 
   const handleToggleLike = async () => {
-    console.log("handleToggleLike");
     const likeValue = !toggleLike;
     setToggleLike(likeValue);
     setToggleDislike(toggleLike);
@@ -79,7 +78,6 @@ const Video = ({ video }) => {
       body: JSON.stringify({ videoId, liked: likeValue ? 1 : 0 }),
       headers: { "Content-Type": "application/json" },
     });
-    console.log("like action", await response.json());
   };
 
   const handleToggleDislike = async () => {
@@ -93,7 +91,6 @@ const Video = ({ video }) => {
       body: JSON.stringify({ videoId, liked: dislikeValue ? 0 : 1 }),
       headers: { "Content-Type": "application/json" },
     });
-    console.log("dislike action", await response.json());
   };
 
   return (
