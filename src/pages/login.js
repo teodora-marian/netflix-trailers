@@ -36,9 +36,7 @@ const Login = () => {
 
     if (email && email !== "") {
       try {
-        console.log("Hello mother clucker");
         setIsLoading(true);
-        console.log("I will attempt to create the damn magic thignie");
         const magic = createMagic();
         const didToken = await magic.auth.loginWithMagicLink({ email });
         if (didToken) {
