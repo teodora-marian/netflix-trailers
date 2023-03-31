@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "../styles/login.module.css";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { magic } from "../../lib/magic-client";
+import { createMagic } from "../../lib/magic-client";
 
 const Login = () => {
   const router = useRouter();
@@ -34,9 +34,12 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    if (email) {
+    if (email && email !== "") {
       try {
+        console.log("Hello mother clucker");
         setIsLoading(true);
+        console.log("I will attempt to create the damn magic thignie");
+        const magic = createMagic();
         const didToken = await magic.auth.loginWithMagicLink({ email });
         if (didToken) {
           const response = await fetch("/api/login", {
@@ -52,7 +55,7 @@ const Login = () => {
             router.push("/");
           } else {
             setIsLoading(false);
-            setUserMsg("Something went wrong with authorizing access.");
+            setUserMsg("Something went wrong authorizing access.");
           }
         }
       } catch (err) {

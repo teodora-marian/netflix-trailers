@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { magic } from "../../lib/magic-client";
+import { createMagic } from "../../lib/magic-client";
 import Loading from "../../components/loading/loading";
 import "@/styles/globals.css";
 
@@ -10,6 +10,7 @@ function App({ Component, pageProps }) {
 
   useEffect(() => {
     const handleLoggedIn = async () => {
+      const magic = createMagic();
       const isLoggedIn = await magic.user.isLoggedIn();
       if (isLoggedIn) {
         router.push("/");
@@ -18,7 +19,7 @@ function App({ Component, pageProps }) {
       }
     };
     handleLoggedIn();
-  });
+  }, []);
 
   useEffect(() => {
     const handleComplete = () => {

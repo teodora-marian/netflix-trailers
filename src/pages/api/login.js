@@ -28,6 +28,7 @@ export default async function login(req, res) {
         process.env.JWT_SECRET
       );
 
+      //add user to DB
       const isExistingUserQuery = await isExistingUser(
         jwtToken,
         metadata.issuer
@@ -36,7 +37,7 @@ export default async function login(req, res) {
       setTokenCookie(jwtToken, res);
       res.send({ done: true });
     } catch (error) {
-      console.log("Something went wrong logging in", error);
+      console.log("Something went wrong registering user", error);
       res.status(500).send({ done: false });
     }
   else {

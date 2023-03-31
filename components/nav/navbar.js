@@ -2,7 +2,7 @@ import styles from "./navbar.module.css";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { magic } from "../../lib/magic-client";
+import { createMagic } from "../../lib/magic-client";
 import Link from "next/link";
 
 const NavBar = () => {
@@ -14,6 +14,7 @@ const NavBar = () => {
   useEffect(() => {
     async function getUsername() {
       try {
+        const magic = createMagic();
         const isLoggedIn = await magic.user.isLoggedIn();
         console.log("THE USER IS LOGGED IN: ", isLoggedIn);
         const didToken = await magic.user.getIdToken();
@@ -69,15 +70,17 @@ const NavBar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <Link className={styles.logoLink} href="/">
-          <div className={styles.logoWrapper}>
-            <Image
-              src={"/static/netflix.svg"}
-              alt="netflix logo"
-              width="128"
-              height="34"
-            />
-          </div>
+        <Link legacyBehavior href="/">
+          <a className={styles.logoLink}>
+            <div className={styles.logoWrapper}>
+              <Image
+                src={"/static/netflix.svg"}
+                alt="netflix logo"
+                width="128"
+                height="34"
+              />
+            </div>
+          </a>
         </Link>
         <ul className={styles.navItems}>
           <li className={styles.navItem1} onClick={handleOnClickHome}>
