@@ -13,6 +13,7 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Also available at https://netflix-trailers.vercel.app/
 
 ## Learn More
 
